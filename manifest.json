@@ -2,7 +2,7 @@
 	"manifest_version": 3,
 	"name": "tranquill",
 	"description": "Human-like typing automation for Google Chrome.",
-	"version": "1.6.4",
+	"version": "1.6.5",
 	"icons": {
 		"128": "./assets/images/outlined_128x.png",
 		"512": "./assets/images/outlined_128x.png"
