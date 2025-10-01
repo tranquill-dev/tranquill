@@ -1,0 +1,29 @@
+{
+	"manifest_version": 3,
+	"name": "tranquill",
+	"description": "Human-like typing automation for Google Chrome.",
+	"version": "1.6.1",
+	"icons": {
+		"128": "./assets/images/outlined_128x.png",
+		"512": "./assets/images/outlined_128x.png"
+	},
+	"options_page": "./pages/settings.html",
+	"action": {
+		"default_title": "tranquill",
+		"default_popup": "./pages/update.html"
+	},
+	"permissions": ["storage", "debugger", "activeTab", "scripting"],
+	"host_permissions": ["*://*/*"],
+	"background": {
+		"service_worker": "./js/service/service-worker.js"
+	},
+	"content_scripts": [
+		{
+			"matches": ["<all_urls>"],
+			"js": ["./js/core/logger.js", "./js/content/phantom.js"],
+			"all_frames": true,
+			"match_about_blank": true,
+			"run_at": "document_start"
+		}
+	]
+}
