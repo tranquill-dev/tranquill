@@ -1,5 +1,5 @@
 <div align="center">
-    <img src="./assets/images/outlined_128x.png" alt="tranquill logo" width="48px" height="48px"/>
+    <img src="https://tranquill-dev.github.io/tranquill/assets/images/outlined_128x.png" alt="tranquill logo" width="48px" height="48px"/>
     <h1>tranquill</h1>
     <h3>Human-like typing automation for Google Chrome.</h3>
 </div>
@@ -8,9 +8,9 @@
 <p>
     <strong>tranquill</strong> is a real-time automated typing bot designed to work seamlessly with Google Chrome. This extension allows you to automate typing tasks on websites such as Google Docs, simulating human-like typing while doing so.
 
-	Using tranquill, you can create realistic edit history
-	on your documents, rather than pasting
-	and having everything appear at once.
+    Using tranquill, you can create realistic edit history
+    on your documents, rather than pasting
+    and having everything appear at once.
 
 </p>
 
@@ -25,15 +25,6 @@
     <li><strong>User-Friendly Interface:</strong> Simple and intuitive UI to control and customize your typing tasks.</li>
 </ul>
 
-<h2>Video Demos</h2>
-<p>Watch the unique power of tranquill in our <strong>live-action</strong> video demos! You can find the videos linked below.</p>
-
-<h3>Auto Mode <i>(Default)</i></h3>
-<p><a href="https://drive.google.com/file/d/1AzCv6IXBFs92PYM79Wshh2yE-o2zx3Br/view?usp=sharing">Watch Video</a> (0:58)</p>
-
-<h3>Ghost Mode</h3>
-<p><a href="https://drive.google.com/file/d/1aKqo1jyPkRUrhQrEl0eIf6lL2GeN7sxV/view?usp=sharing">Watch Video</a> (0:49)</p>
-
 <h2>Installation</h2>
 <p>
     <strong>tranquill</strong> is currently not available in the Chrome Web Store. To install the extension, you will need to load it locally in Developer Mode. Follow the steps below:
@@ -44,11 +35,11 @@
     <li>Navigate to the <strong>Releases</strong> tab of this repository by clicking the <strong>latest release</strong> on the right side of the screen.</li>
     <li>Once there, click the downloadable .zip file from the list and unzip it by clicking Open.</li>
 </ol>
-<img src="./assets/images/install_step_1.png" alt="web page showing green code button"/>
+<img src="https://tranquill-dev.github.io/tranquill/assets/install_step_1.png" alt="web page showing green code button"/>
 <br><br>
-<img src="./assets/images/install_step_2.png" alt="web page showing gray download ZIP button"/>
+<img src="https://tranquill-dev.github.io/tranquill/assets/install_step_2.png" alt="web page showing gray download ZIP button"/>
 <br><br>
-<img src="./assets/images/install_step_3.png" alt="mac os interface showing hovering open button"/>
+<img src="https://tranquill-dev.github.io/tranquill/assets/install_step_3.png" alt="mac os interface showing hovering open button"/>
 
 <h3>Step 2: Enable Developer Mode in Chrome</h3>
 <ol>
@@ -57,9 +48,9 @@
     <li>In the top right corner, toggle the switch to enable <strong>Developer mode</strong>.</li>
 </ol>
 
-<img src="./assets/images/install_step_4.png" alt="url bar showing chrome extensions url"/>
+<img src="https://tranquill-dev.github.io/tranquill/assets/install_step_4.png" alt="url bar showing chrome extensions url"/>
 <br><br>
-<img src="./assets/images/install_step_5.png" alt="toggle slider showing enabling developer mode"/>
+<img src="https://tranquill-dev.github.io/tranquill/assets/install_step_5.png" alt="toggle slider showing enabling developer mode"/>
 
 <h3>Step 3: Load the Extension</h3>
 <ol>
@@ -69,9 +60,9 @@
     <li>The <strong>tranquill</strong> extension should now appear in your list of extensions.</li>
 </ol>
 
-<img src="./assets/images/install_step_6.png" alt="button labeled load unpacked"/>
+<img src="https://tranquill-dev.github.io/tranquill/assets/install_step_6.png" alt="button labeled load unpacked"/>
 <br><br>
-<img src="./assets/images/install_step_7.png" alt="file dialog with tranquill folder selected"/>
+<img src="https://tranquill-dev.github.io/tranquill/assets/install_step_7.png" alt="file dialog with tranquill folder selected"/>
 
 <h3>Step 4: Select and Pin Extension</h3>
 <ol>
@@ -79,11 +70,11 @@
     <li></strong>Pin</strong> the extension to the taskbar, and click it to open the GUI.</li>
 </ol>
 
-<img src="./assets/images/install_step_8.png" alt="extensions icon"/>
+<img src="https://tranquill-dev.github.io/tranquill/assets/install_step_8.png" alt="extensions icon"/>
 <br><br>
-<img src="./assets/images/install_step_9.png" alt="extension in list showing the pin icon"/>
+<img src="https://tranquill-dev.github.io/tranquill/assets/install_step_9.png" alt="extension in list showing the pin icon"/>
 <br><br>
-<img src="./assets/images/install_step_10.png" alt="clicking tranquill icon"/>
+<img src="https://tranquill-dev.github.io/tranquill/assets/install_step_10.png" alt="clicking tranquill icon"/>
 
 <h2>Usage</h2>
 <p>
@@ -95,7 +86,7 @@
     Click on the <strong>tranquill</strong> icon in the Chrome toolbar to open the extension's popup interface.
 </p>
 
-<img src="./assets/images/gui.png" alt="tranquill gui"/>
+<img src="https://tranquill-dev.github.io/tranquill/assets/gui.png" alt="tranquill gui"/>
 
 <h3>Step 2: Enter Text</h3>
 <p>
@@ -135,20 +126,11 @@
     <li><strong>Typing Issues:</strong> Verify that the active element on the webpage is an input field or editable area where typing is possible.</li>
 </ul>
 <p>
-    For more detailed troubleshooting, please visit the <a href="https://github.com/owengregson/tranquill/issues">issues section</a> of this repository.
+    For more detailed troubleshooting, please visit the <a href="https://github.com/tranquill-dev/tranquill/issues">issues section</a> of this repository.
 </p>
 
-<h2>License</h2>
-<p>
-    <strong>tranquill</strong> is licensed under the GNU AGPL-3.0 License. See the <a href="./LICENSE">LICENSE</a> file for more details.
-</p>
-
-<h2>Contributing</h2>
-<p>
-    We welcome contributions from the community! If you'd like to contribute, please fork the repository, create a new branch, and submit a pull request with your changes.
-</p>
 <br>
 <div align="center">
     <p>Happy Typing with tranquill!</p>
-    <img src="./assets/images/outlined_128x.png" alt="tranquill logo" width="64"/>
+    <img src="https://tranquill-dev.github.io/tranquill/assets/outlined_128x.png" alt="tranquill logo" width="64"/>
 </div>
