@@ -85,6 +85,21 @@
     For more detailed troubleshooting, please visit the <a href="https://github.com/tranquill-dev/tranquill/issues">issues section</a> of this repository.
 </p>
 
+<h2>Obscura configuration</h2>
+<p>
+    The build pipeline now exposes a configurable JavaScript obfuscation stage called <strong>Obscura</strong>. Its behaviour is driven by the <code>obscura.config.json</code> file in the project root. Adjusting this file lets you fine-tune how aggressively code is transformed while reducing the risk of runtime breakage.
+</p>
+<ul>
+    <li><strong>runtime.mode</strong>: Choose between <code>auto</code>, <code>import</code>, or <code>inline</code> runtime injection. Obscura automatically falls back to a safe option if an incompatible mode is selected.</li>
+    <li><strong>virtualization</strong>: Toggle string, template, regular-expression, and numeric literal encryption independently, set minimum numeric thresholds, and exclude fragile literals with <code>skipPatterns</code>.</li>
+    <li><strong>rename</strong>: Enable collision-aware renaming with a custom prefix and a list of reserved identifiers.</li>
+    <li><strong>plugins</strong>: Enable or disable the scrubber, control-flow normaliser, and grammar camouflage passes, and customise their probabilities.</li>
+    <li><strong>diagnostics</strong>: Control console verbosity, request an on-disk diagnostics report (<code>tranquill.obscura-report.json</code>), and include high level summaries of the actions taken for each file.</li>
+</ul>
+<p>
+    During a build Obscura records potential problem spots, such as duplicated runtime injections or identifiers that could shadow runtime helpers, and surfaces them as warnings in both the console and the generated diagnostics report.
+</p>
+
 <br>
 <div align="center">
     <p>Happy Typing with tranquill!</p>
