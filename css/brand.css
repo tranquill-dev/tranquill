@@ -1,0 +1,382 @@
+:root {
+        color-scheme: light;
+        --theme-mode: light;
+
+        --max-width: min(1140px, 92vw);
+
+        /* Light theme palette */
+        --color-brand-primary-light: #1f6ae4;
+        --color-brand-secondary-light: #4f92f5;
+        --color-brand-tertiary-light: #3d7ef2;
+        --color-brand-highlight-light: #6aaeff;
+        --color-brand-accent-light: #7bc8ff;
+        --color-brand-bright-light: #5d8ff2;
+        --color-brand-ribbon-light: #2a70dc;
+        --color-brand-wave-light: #327ae4;
+        --color-brand-surge-light: #3a84e9;
+        --color-brand-electric-light: #4384ff;
+        --color-brand-azure-light: #6094ff;
+        --color-brand-soft-light: #a9d3ff;
+        --color-brand-cloud-light: #add2ff;
+        --color-brand-ice-light: #cde5ff;
+        --color-brand-haze-light: #c4deff;
+        --color-brand-foam-light: #e4f3ff;
+        --color-brand-veil-light: #e4edff;
+        --color-brand-deep-light: #0d2f6f;
+        --color-brand-contrast-light: #0d3f9e;
+        --color-slate-light: #4a5d86;
+
+        --color-surface-body-light: #f0f6ff;
+        --color-surface-base-light: #f6faff;
+        --color-surface-panel-light: #f7faff;
+        --color-surface-hero-light: #f4f8ff;
+        --color-surface-card-light: #ffffff;
+        --color-surface-bloom-light: #f7fbff;
+        --color-surface-veil-light: #eef5ff;
+        --color-surface-bright-light: #f9fcff;
+        --color-surface-lift-light: #f5fbff;
+        --color-surface-snow-light: #f0f7ff;
+        --color-surface-air-light: #f1f6ff;
+        --color-surface-breeze-light: #f2f7ff;
+        --color-surface-sky-light: #f6f9ff;
+
+        --color-text-primary-light: #0f1b33;
+        --color-text-muted-light: #5f6b85;
+        --color-text-soft-light: rgba(15, 27, 51, 0.62);
+        --color-text-subtle-light: rgba(15, 27, 51, 0.58);
+        --color-text-contrast-light: #ffffff;
+        --color-text-on-dark-strong-light: rgba(255, 255, 255, 0.96);
+        --color-text-on-dark-soft-light: rgba(240, 247, 255, 0.85);
+        --color-text-on-dark-muted-light: rgba(232, 240, 255, 0.82);
+        --color-text-on-dark-subtle-light: rgba(232, 240, 255, 0.7);
+
+        --color-neutral-0-light: #ffffff;
+
+        --color-ink-900-light: #050e22;
+        --color-ink-800-light: #061c48;
+        --color-ink-750-light: #081636;
+        --color-ink-700-light: #081e4e;
+        --color-ink-650-light: #0a1838;
+        --color-ink-600-light: #0a1c46;
+        --color-ink-550-light: #0a2252;
+        --color-ink-500-light: #0b1a36;
+        --color-ink-450-light: #0c2346;
+        --color-ink-400-light: #0c2a5e;
+        --color-ink-350-light: #0d2148;
+        --color-ink-300-light: #0f2a61;
+
+        --shadow-soft-light: 0 28px 60px rgba(31, 106, 228, 0.18);
+        --shadow-card-light: 0 18px 44px rgba(31, 106, 228, 0.16);
+        --shadow-floating-light: 0 24px 45px rgba(15, 42, 97, 0.22);
+
+        --gradient-primary-light: linear-gradient(130deg, #1f6ae4 0%, #6aaeff 100%);
+        --gradient-hero-title-light: linear-gradient(120deg, #32a8cb, #2974cb, #6ec5f0);
+        --gradient-hero-light: radial-gradient(
+                        circle at 12% 8%,
+                        rgba(123, 200, 255, 0.65),
+                        transparent 54%
+                ),
+                radial-gradient(
+                        circle at 86% 18%,
+                        rgba(31, 106, 228, 0.52),
+                        transparent 58%
+                ),
+                linear-gradient(180deg, #f7fbff 0%, #eef5ff 100%);
+        --gradient-muted-light: linear-gradient(
+                135deg,
+                rgba(242, 247, 255, 0.92),
+                rgba(255, 255, 255, 0.65)
+        );
+
+        /* Dark theme palette */
+        --color-brand-primary-dark: #8ab4ff;
+        --color-brand-secondary-dark: #6c9cff;
+        --color-brand-tertiary-dark: #4a7df2;
+        --color-brand-highlight-dark: #5fb8ff;
+        --color-brand-accent-dark: #56d1ff;
+        --color-brand-bright-dark: #7dafff;
+        --color-brand-ribbon-dark: #2655c0;
+        --color-brand-wave-dark: #3068d6;
+        --color-brand-surge-dark: #3d7ce9;
+        --color-brand-electric-dark: #4f91ff;
+        --color-brand-azure-dark: #5a8bff;
+        --color-brand-soft-dark: #9ec8ff;
+        --color-brand-cloud-dark: #8cbcff;
+        --color-brand-ice-dark: #7fbaff;
+        --color-brand-haze-dark: #7aa7ff;
+        --color-brand-foam-dark: #5a8fff;
+        --color-brand-veil-dark: #547cc8;
+        --color-brand-deep-dark: #153777;
+        --color-brand-contrast-dark: #082158;
+        --color-slate-dark: #5a6f96;
+
+        --color-surface-body-dark: #050b18;
+        --color-surface-base-dark: #0d172b;
+        --color-surface-panel-dark: #13223c;
+        --color-surface-hero-dark: #111f36;
+        --color-surface-card-dark: #172a45;
+        --color-surface-bloom-dark: #1b2f4c;
+        --color-surface-veil-dark: #0c1627;
+        --color-surface-bright-dark: #223b60;
+        --color-surface-lift-dark: #1e3452;
+        --color-surface-snow-dark: #162949;
+        --color-surface-air-dark: #1c3154;
+        --color-surface-breeze-dark: #233a5f;
+        --color-surface-sky-dark: #1d2f4a;
+
+        --color-text-primary-dark: #edf3ff;
+        --color-text-muted-dark: #a2b3d1;
+        --color-text-soft-dark: rgba(200, 214, 240, 0.78);
+        --color-text-subtle-dark: rgba(168, 190, 226, 0.68);
+        --color-text-contrast-dark: #f7fbff;
+        --color-text-on-dark-strong-dark: rgba(245, 249, 255, 0.95);
+        --color-text-on-dark-soft-dark: rgba(214, 228, 255, 0.82);
+        --color-text-on-dark-muted-dark: rgba(180, 202, 238, 0.78);
+        --color-text-on-dark-subtle-dark: rgba(156, 182, 224, 0.68);
+
+        --color-neutral-0-dark: #0a162b;
+
+        --color-ink-900-dark: #010812;
+        --color-ink-800-dark: #071125;
+        --color-ink-750-dark: #0b1a32;
+        --color-ink-700-dark: #0f2340;
+        --color-ink-650-dark: #132c4d;
+        --color-ink-600-dark: #17345a;
+        --color-ink-550-dark: #1c3f68;
+        --color-ink-500-dark: #214975;
+        --color-ink-450-dark: #255280;
+        --color-ink-400-dark: #2a5a8c;
+        --color-ink-350-dark: #2f6397;
+        --color-ink-300-dark: #3570a9;
+
+        --shadow-soft-dark: 0 28px 60px rgba(2, 10, 28, 0.56);
+        --shadow-card-dark: 0 18px 44px rgba(3, 14, 36, 0.48);
+        --shadow-floating-dark: 0 24px 45px rgba(3, 18, 46, 0.52);
+
+        --gradient-primary-dark: linear-gradient(140deg, #234b99 0%, #0f285f 100%);
+        --gradient-hero-title-dark: linear-gradient(120deg, #3da5f0, #2f7ee0, #6fc7ff);
+        --gradient-hero-dark: radial-gradient(
+                        circle at 12% 8%,
+                        rgba(86, 166, 255, 0.55),
+                        transparent 54%
+                ),
+                radial-gradient(
+                        circle at 86% 18%,
+                        rgba(32, 90, 204, 0.48),
+                        transparent 58%
+                ),
+                linear-gradient(180deg, #0d172b 0%, #050b18 100%);
+        --gradient-muted-dark: linear-gradient(
+                135deg,
+                rgba(20, 36, 66, 0.92),
+                rgba(14, 24, 42, 0.75)
+        );
+
+        /* Default aliases */
+        --color-brand-primary: var(--color-brand-primary-light);
+        --color-brand-secondary: var(--color-brand-secondary-light);
+        --color-brand-tertiary: var(--color-brand-tertiary-light);
+        --color-brand-highlight: var(--color-brand-highlight-light);
+        --color-brand-accent: var(--color-brand-accent-light);
+        --color-brand-bright: var(--color-brand-bright-light);
+        --color-brand-ribbon: var(--color-brand-ribbon-light);
+        --color-brand-wave: var(--color-brand-wave-light);
+        --color-brand-surge: var(--color-brand-surge-light);
+        --color-brand-electric: var(--color-brand-electric-light);
+        --color-brand-azure: var(--color-brand-azure-light);
+        --color-brand-soft: var(--color-brand-soft-light);
+        --color-brand-cloud: var(--color-brand-cloud-light);
+        --color-brand-ice: var(--color-brand-ice-light);
+        --color-brand-haze: var(--color-brand-haze-light);
+        --color-brand-foam: var(--color-brand-foam-light);
+        --color-brand-veil: var(--color-brand-veil-light);
+        --color-brand-deep: var(--color-brand-deep-light);
+        --color-brand-contrast: var(--color-brand-contrast-light);
+        --color-slate: var(--color-slate-light);
+
+        --color-surface-body: var(--color-surface-body-light);
+        --color-surface-base: var(--color-surface-base-light);
+        --color-surface-panel: var(--color-surface-panel-light);
+        --color-surface-hero: var(--color-surface-hero-light);
+        --color-surface-card: var(--color-surface-card-light);
+        --color-surface-bloom: var(--color-surface-bloom-light);
+        --color-surface-veil: var(--color-surface-veil-light);
+        --color-surface-bright: var(--color-surface-bright-light);
+        --color-surface-lift: var(--color-surface-lift-light);
+        --color-surface-snow: var(--color-surface-snow-light);
+        --color-surface-air: var(--color-surface-air-light);
+        --color-surface-breeze: var(--color-surface-breeze-light);
+        --color-surface-sky: var(--color-surface-sky-light);
+
+        --color-text-primary: var(--color-text-primary-light);
+        --color-text-muted: var(--color-text-muted-light);
+        --color-text-soft: var(--color-text-soft-light);
+        --color-text-subtle: var(--color-text-subtle-light);
+        --color-text-contrast: var(--color-text-contrast-light);
+        --color-text-on-dark-strong: var(--color-text-on-dark-strong-light);
+        --color-text-on-dark-soft: var(--color-text-on-dark-soft-light);
+        --color-text-on-dark-muted: var(--color-text-on-dark-muted-light);
+        --color-text-on-dark-subtle: var(--color-text-on-dark-subtle-light);
+
+        --color-neutral-0: var(--color-neutral-0-light);
+
+        --color-ink-900: var(--color-ink-900-light);
+        --color-ink-800: var(--color-ink-800-light);
+        --color-ink-750: var(--color-ink-750-light);
+        --color-ink-700: var(--color-ink-700-light);
+        --color-ink-650: var(--color-ink-650-light);
+        --color-ink-600: var(--color-ink-600-light);
+        --color-ink-550: var(--color-ink-550-light);
+        --color-ink-500: var(--color-ink-500-light);
+        --color-ink-450: var(--color-ink-450-light);
+        --color-ink-400: var(--color-ink-400-light);
+        --color-ink-350: var(--color-ink-350-light);
+        --color-ink-300: var(--color-ink-300-light);
+
+        --shadow-soft: var(--shadow-soft-light);
+        --shadow-card: var(--shadow-card-light);
+        --shadow-floating: var(--shadow-floating-light);
+
+        --gradient-primary: var(--gradient-primary-light);
+        --gradient-hero-title: var(--gradient-hero-title-light);
+        --gradient-hero: var(--gradient-hero-light);
+        --gradient-muted: var(--gradient-muted-light);
+
+        --surface-overlay-strong: color-mix(in srgb, var(--color-neutral-0) 94%, transparent);
+        --surface-overlay-medium: color-mix(in srgb, var(--color-surface-sky) 88%, transparent);
+        --surface-overlay-soft: color-mix(in srgb, var(--color-neutral-0) 76%, transparent);
+        --surface-overlay-faint: color-mix(in srgb, var(--color-neutral-0) 65%, transparent);
+        --surface-overlay-ghost: color-mix(in srgb, var(--color-neutral-0) 45%, transparent);
+        --surface-overlay-halo: color-mix(in srgb, var(--color-neutral-0) 28%, transparent);
+        --surface-overlay-tint: color-mix(in srgb, var(--color-neutral-0) 22%, transparent);
+        --surface-overlay-outline: color-mix(in srgb, var(--color-neutral-0) 18%, transparent);
+        --surface-overlay-shimmer: color-mix(in srgb, var(--color-neutral-0) 12%, transparent);
+        --surface-overlay-frost: color-mix(in srgb, var(--color-neutral-0) 10%, transparent);
+
+        --color-surface-glass: var(--surface-overlay-soft);
+
+        --brand-overlay-08: color-mix(in srgb, var(--color-brand-primary) 8%, transparent);
+        --brand-overlay-10: color-mix(in srgb, var(--color-brand-primary) 10%, transparent);
+        --brand-overlay-12: color-mix(in srgb, var(--color-brand-primary) 12%, transparent);
+        --brand-overlay-14: color-mix(in srgb, var(--color-brand-primary) 14%, transparent);
+        --brand-overlay-16: color-mix(in srgb, var(--color-brand-primary) 16%, transparent);
+        --brand-overlay-18: color-mix(in srgb, var(--color-brand-primary) 18%, transparent);
+        --brand-overlay-24: color-mix(in srgb, var(--color-brand-primary) 24%, transparent);
+        --brand-overlay-26: color-mix(in srgb, var(--color-brand-primary) 26%, transparent);
+        --brand-overlay-28: color-mix(in srgb, var(--color-brand-primary) 28%, transparent);
+        --brand-overlay-42: color-mix(in srgb, var(--color-brand-primary) 42%, transparent);
+        --brand-overlay-45: color-mix(in srgb, var(--color-brand-primary) 45%, transparent);
+        --brand-overlay-46: color-mix(in srgb, var(--color-brand-primary) 46%, transparent);
+        --brand-overlay-52: color-mix(in srgb, var(--color-brand-primary) 52%, transparent);
+        --brand-overlay-78: color-mix(in srgb, var(--color-brand-primary) 78%, transparent);
+
+        --accent-overlay-12: color-mix(in srgb, var(--color-brand-accent) 12%, transparent);
+        --accent-overlay-18: color-mix(in srgb, var(--color-brand-accent) 18%, transparent);
+        --accent-overlay-22: color-mix(in srgb, var(--color-brand-accent) 22%, transparent);
+        --accent-overlay-32: color-mix(in srgb, var(--color-brand-accent) 32%, transparent);
+        --accent-overlay-35: color-mix(in srgb, var(--color-brand-accent) 35%, transparent);
+        --accent-overlay-40: color-mix(in srgb, var(--color-brand-accent) 40%, transparent);
+        --accent-overlay-50: color-mix(in srgb, var(--color-brand-accent) 50%, transparent);
+        --accent-overlay-62: color-mix(in srgb, var(--color-brand-accent) 62%, transparent);
+        --accent-overlay-65: color-mix(in srgb, var(--color-brand-accent) 65%, transparent);
+        --accent-overlay-75: color-mix(in srgb, var(--color-brand-accent) 75%, transparent);
+        --accent-overlay-92: color-mix(in srgb, var(--color-brand-accent) 92%, transparent);
+
+        --ink-overlay-32: color-mix(in srgb, var(--color-ink-700) 32%, transparent);
+        --ink-overlay-36: color-mix(in srgb, var(--color-ink-650) 36%, transparent);
+        --ink-overlay-38: color-mix(in srgb, var(--color-ink-800) 38%, transparent);
+        --ink-overlay-46: color-mix(in srgb, var(--color-ink-800) 46%, transparent);
+        --ink-overlay-52: color-mix(in srgb, var(--color-ink-650) 52%, transparent);
+        --ink-overlay-72: color-mix(in srgb, var(--color-ink-750) 72%, transparent);
+        --ink-overlay-78: color-mix(in srgb, var(--color-ink-600) 78%, transparent);
+        --ink-overlay-92: color-mix(in srgb, var(--color-ink-450) 92%, transparent);
+        --ink-overlay-32-soft: color-mix(in srgb, var(--color-ink-550) 32%, transparent);
+
+        --meta-theme-color: var(--color-brand-primary);
+}
+
+:root[data-theme="dark"] {
+        color-scheme: dark;
+        --theme-mode: dark;
+
+        --color-brand-primary: var(--color-brand-primary-dark);
+        --color-brand-secondary: var(--color-brand-secondary-dark);
+        --color-brand-tertiary: var(--color-brand-tertiary-dark);
+        --color-brand-highlight: var(--color-brand-highlight-dark);
+        --color-brand-accent: var(--color-brand-accent-dark);
+        --color-brand-bright: var(--color-brand-bright-dark);
+        --color-brand-ribbon: var(--color-brand-ribbon-dark);
+        --color-brand-wave: var(--color-brand-wave-dark);
+        --color-brand-surge: var(--color-brand-surge-dark);
+        --color-brand-electric: var(--color-brand-electric-dark);
+        --color-brand-azure: var(--color-brand-azure-dark);
+        --color-brand-soft: var(--color-brand-soft-dark);
+        --color-brand-cloud: var(--color-brand-cloud-dark);
+        --color-brand-ice: var(--color-brand-ice-dark);
+        --color-brand-haze: var(--color-brand-haze-dark);
+        --color-brand-foam: var(--color-brand-foam-dark);
+        --color-brand-veil: var(--color-brand-veil-dark);
+        --color-brand-deep: var(--color-brand-deep-dark);
+        --color-brand-contrast: var(--color-brand-contrast-dark);
+        --color-slate: var(--color-slate-dark);
+
+        --color-surface-body: var(--color-surface-body-dark);
+        --color-surface-base: var(--color-surface-base-dark);
+        --color-surface-panel: var(--color-surface-panel-dark);
+        --color-surface-hero: var(--color-surface-hero-dark);
+        --color-surface-card: var(--color-surface-card-dark);
+        --color-surface-bloom: var(--color-surface-bloom-dark);
+        --color-surface-veil: var(--color-surface-veil-dark);
+        --color-surface-bright: var(--color-surface-bright-dark);
+        --color-surface-lift: var(--color-surface-lift-dark);
+        --color-surface-snow: var(--color-surface-snow-dark);
+        --color-surface-air: var(--color-surface-air-dark);
+        --color-surface-breeze: var(--color-surface-breeze-dark);
+        --color-surface-sky: var(--color-surface-sky-dark);
+
+        --color-text-primary: var(--color-text-primary-dark);
+        --color-text-muted: var(--color-text-muted-dark);
+        --color-text-soft: var(--color-text-soft-dark);
+        --color-text-subtle: var(--color-text-subtle-dark);
+        --color-text-contrast: var(--color-text-contrast-dark);
+        --color-text-on-dark-strong: var(--color-text-on-dark-strong-dark);
+        --color-text-on-dark-soft: var(--color-text-on-dark-soft-dark);
+        --color-text-on-dark-muted: var(--color-text-on-dark-muted-dark);
+        --color-text-on-dark-subtle: var(--color-text-on-dark-subtle-dark);
+
+        --color-neutral-0: var(--color-neutral-0-dark);
+
+        --color-ink-900: var(--color-ink-900-dark);
+        --color-ink-800: var(--color-ink-800-dark);
+        --color-ink-750: var(--color-ink-750-dark);
+        --color-ink-700: var(--color-ink-700-dark);
+        --color-ink-650: var(--color-ink-650-dark);
+        --color-ink-600: var(--color-ink-600-dark);
+        --color-ink-550: var(--color-ink-550-dark);
+        --color-ink-500: var(--color-ink-500-dark);
+        --color-ink-450: var(--color-ink-450-dark);
+        --color-ink-400: var(--color-ink-400-dark);
+        --color-ink-350: var(--color-ink-350-dark);
+        --color-ink-300: var(--color-ink-300-dark);
+
+        --shadow-soft: var(--shadow-soft-dark);
+        --shadow-card: var(--shadow-card-dark);
+        --shadow-floating: var(--shadow-floating-dark);
+
+        --gradient-primary: var(--gradient-primary-dark);
+        --gradient-hero-title: var(--gradient-hero-title-dark);
+        --gradient-hero: var(--gradient-hero-dark);
+        --gradient-muted: var(--gradient-muted-dark);
+
+        --surface-overlay-medium: color-mix(in srgb, var(--color-surface-breeze) 78%, transparent);
+        --surface-overlay-soft: color-mix(in srgb, var(--color-neutral-0) 68%, transparent);
+        --surface-overlay-faint: color-mix(in srgb, var(--color-neutral-0) 52%, transparent);
+        --surface-overlay-ghost: color-mix(in srgb, var(--color-neutral-0) 32%, transparent);
+        --surface-overlay-halo: color-mix(in srgb, var(--color-neutral-0) 22%, transparent);
+        --surface-overlay-tint: color-mix(in srgb, var(--color-neutral-0) 16%, transparent);
+        --surface-overlay-outline: color-mix(in srgb, var(--color-neutral-0) 12%, transparent);
+        --surface-overlay-shimmer: color-mix(in srgb, var(--color-neutral-0) 9%, transparent);
+        --surface-overlay-frost: color-mix(in srgb, var(--color-neutral-0) 7%, transparent);
+
+        --meta-theme-color: var(--color-brand-primary-dark);
+}
